@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+.width-container {
+    width: 100%;
+    margin: 0, auto;
+    min-width: 300px;
+    text-align: center;
+}
+
+body {
+    min-width: 1100px;
+    background-color: rgba(46, 147, 255, 0.556)
+}
+
+.title {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+.first-row-photos {
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 150px;
+    height: 260px;
+    border: solid, 4px, rgb(11, 63, 132);
+}
+
+.second-row-photos {
+    width: 150px;
+    height: 260px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border: solid, 4px, rgb(11, 63, 132);
+}
+
+.team-title {
+    padding-top: 30px;
+    font-size: 45px;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#captain {
+    border-color: gold;
+}
+
