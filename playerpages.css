@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+body {
+    min-width: 1100px;
+    background-color: rgba(46, 147, 255, 0.556)
+}
+
+.title-name {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.back-icon {
+    width: 60px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 240px;
+}
+
+.playercard {
+    position: absolute;
+    right: 45;
+    top: 40px;
+    border: solid, 4px, rgb(11, 63, 132);
+    width: 160px;
+    height: 260px;
+} 
+
+.assists {
+    position: absolute;
+    left: 340px;
+    top: 170px;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+.goals {
+    position: absolute;
+    left: 600px;
+    top: 170px;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+.brexits {
+    position: absolute;
+    left: 870px;
+    top: 170px;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+#captain {
+    border-color: gold;
+}
+
+.ribbon {
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    top: 0;
+}
